@@ -10,4 +10,4 @@ ENV CN="localhost"
 ENV DNAME="CN=$CN,O=Moodle,L=Perth,S=WA,C=AU"
 ENV CERT_SUBJ_ALT_NAMES="ip:127.0.0.1"
 
-CMD [ "run.sh" ]
+CMD [ "/bin/bash", "run.sh" ]
